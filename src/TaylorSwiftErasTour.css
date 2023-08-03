@@ -16,7 +16,7 @@ html {
     background-image: url(../src/assets/img/paper-texture.png);
     background-size: cover;
     opacity: 1; /* Puedes ajustar la opacidad según tus preferencias */
-    z-index: 1; 
+    z-index: 100; 
     pointer-events: none;
 }
 
@@ -36,7 +36,6 @@ html {
 }
 
 .article {
-    width: 100%;
     height: 20rem;
     width: 20rem;
     margin: auto;
@@ -93,4 +92,20 @@ html {
 }
 .f9 {
     background-color: #C0A88C;
+}
+
+.avatar {
+    height: 65rem;
+    width: 30rem;
+    margin: -5rem 5rem -5rem -5rem;
+
+}
+.image--avatar {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    position: relative; /* Asegúrate de establecer una posición diferente a 'static' */
+    z-index: 2; 
+    filter: grayscale(100%);
 }
