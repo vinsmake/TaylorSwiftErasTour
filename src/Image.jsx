@@ -31,7 +31,7 @@ export const Image = ({img, filter}) => {
         <>
             <article className="article" onClick={handleArticleClick}>
                 <img className="image" src={imageSrc}></img>
-                <div className={filter}>
+                <div className={`${filter} filter`}>
                 </div>
             </article>
         </>
