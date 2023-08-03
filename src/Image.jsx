@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export const Image = ({img}) => {
+export const Image = ({img, filter}) => {
 
     const [imageSrc, setImageSrc] = useState(img);
 
@@ -30,7 +30,9 @@ export const Image = ({img}) => {
     return (
         <>
             <article className="article" onClick={handleArticleClick}>
-                <img className="image" src={imageSrc} />
+                <img className="image" src={imageSrc}></img>
+                <div className={filter}>
+                </div>
             </article>
         </>
     )

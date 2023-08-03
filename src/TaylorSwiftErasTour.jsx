@@ -13,28 +13,28 @@ export const TaylorSwiftErasTour = () => {
             <main className='main'>
                 <section className="section">
                     <div className="column1">
-                        <Image img={img1} />
-                        <Image img={img2} />
-                        <Image img={img3} />
+                        <Image img={img1} filter={'f1'}/>
+                        <Image img={img2} filter={'f2'}/>
+                        <Image img={img3} filter={'f3'}/>
                     </div>
                     <div className="column1">
-                        <Image img={img4} />
+                        <Image img={img4} filter={'f4'}/>
                         <article className="article">
                         </article>
-                        <Image img={img5} />
+                        <Image img={img5} filter={'f5'}/>
                     </div>
                     <div className="column1">
-                        <Image img={img6} />
+                        <Image img={img6} filter={'f6'}/>
                         <article className="article">
                         </article>
-                        <Image img={img7} />
+                        <Image img={img7} filter={'f7'}/>
 
                     </div>
                     <div className="column1">
-                        <Image img={img8} />
+                        <Image img={img8} filter={'f8'}/>
                         <article className="article">
                         </article>
-                        <Image img={img9} />
+                        <Image img={img9} filter={'f9'}/>
                     </div>
                     <div className='texture'>
                     </div>
