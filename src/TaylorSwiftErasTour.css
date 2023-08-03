@@ -29,6 +29,7 @@ html {
     background-color: #313A57;
 }
 
+
 .column1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -40,7 +41,6 @@ html {
     width: 20rem;
     margin: auto;
     position: relative; /* Agregar la posición relativa al elemento .image */
-    
 }
 
 .image {
@@ -98,7 +98,6 @@ html {
     height: 65rem;
     width: 30rem;
     margin: -5rem 5rem -5rem -5rem;
-
 }
 .image--avatar {
     box-sizing: border-box;
@@ -108,4 +107,11 @@ html {
     position: relative; /* Asegúrate de establecer una posición diferente a 'static' */
     z-index: 2; 
     filter: grayscale(100%);
+}
+
+
+@media (max-width: 480px) {
+    html {
+        font-size: 40%;
+    }
 }

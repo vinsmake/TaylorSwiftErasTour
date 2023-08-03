@@ -6,6 +6,7 @@ import { Avatar } from './avatar';
 export const TaylorSwiftErasTour = () => {
 
 
+      
 
 
     return (
@@ -42,8 +43,6 @@ export const TaylorSwiftErasTour = () => {
                     </div>
                 </section>
 
-                {/*                 <input type="file" accept="image/*" onChange={handleImageUpload} />
-                <button onClick={downloadCanvas}>Download Image</button> */}
             </main>
         </>
     )
