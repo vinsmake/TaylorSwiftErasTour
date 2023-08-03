@@ -2,9 +2,11 @@ import './normalize.css';
 import './TaylorSwiftErasTour.css';
 import { img1, img2, img3, img4, img5, img6, img7, img8, img9 } from './assets/img'
 import { Image } from "./image";
+import { Avatar } from './avatar';
 export const TaylorSwiftErasTour = () => {
 
 
+      
 
 
     return (
@@ -20,6 +22,7 @@ export const TaylorSwiftErasTour = () => {
                     <div className="column1">
                         <Image img={img4} filter={'f4'}/>
                         <article className="article">
+                        <Avatar/>
                         </article>
                         <Image img={img5} filter={'f5'}/>
                     </div>
@@ -40,8 +43,6 @@ export const TaylorSwiftErasTour = () => {
                     </div>
                 </section>
 
-                {/*                 <input type="file" accept="image/*" onChange={handleImageUpload} />
-                <button onClick={downloadCanvas}>Download Image</button> */}
             </main>
         </>
     )
