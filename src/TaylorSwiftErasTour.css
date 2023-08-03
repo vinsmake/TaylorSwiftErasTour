@@ -2,10 +2,29 @@ html {
     font-size: 62.5%;
 }
 
+.main {
+    width: 100%;
+    margin: auto;
+}
+
+.texture {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(../src/assets/img/paper-texture.png);
+    background-size: cover;
+    opacity: 1; /* Puedes ajustar la opacidad según tus preferencias */
+    z-index: 1; 
+    pointer-events: none;
+}
+
 .section {
+    position: relative; /* Asegura que .texture se posicione dentro de .section */
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    width: 90%;
+    width: 80%;
     margin: auto;
     background-color: #313A57;
 }
@@ -20,6 +39,7 @@ html {
     width: 100%;
     height: 30rem;
     margin: auto;
+    position: relative; /* Agregar la posición relativa al elemento .image */
 }
 
 .image {
@@ -28,4 +48,20 @@ html {
     object-fit: cover;
     margin: auto;
 
+
+}
+
+.f1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #BCD5B8;
+    opacity: 1;
+    z-index: 1;
+    pointer-events: none;
+    background-blend-mode: color;
+    mix-blend-mode: color;
+    
 }
